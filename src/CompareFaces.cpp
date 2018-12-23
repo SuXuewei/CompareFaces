@@ -60,8 +60,8 @@ int matchFaces(const Mat &face1, const Mat &face2)
     Mat img_keypoints1,img_keypoints2;
     drawKeypoints(img1,keypoints1,img_keypoints1,Scalar::all(-1),0);
     drawKeypoints(img2,keypoints2,img_keypoints2,Scalar::all(-1),0);
-    imshow("Src1",img_keypoints1);
-    imshow("Src2",img_keypoints2);
+//    imshow("Src1",img_keypoints1);
+//    imshow("Src2",img_keypoints2);
 
     //ÌØÕ÷Æ¥Åä
     vector<DMatch> matches;//Æ¥Åä½á¹û
